@@ -1,0 +1,12 @@
+<p>optional input: {{ optionalInput() }}</p>
+<p>optional input with default value: {{ optionalInputWithDefaultValue() }}</p>
+<p>required input: {{ requiredInput() }}</p>
+<p>model input: {{ modelInput() }}</p>
+
+<br><br>
+
+<button (click)="changeModelInput()">changeModelInput</button>
+
+<br><br>
+
+<button (click)="emitOutput()">emitOutput</button>
